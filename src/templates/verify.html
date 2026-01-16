@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login Notification</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color:#f3f4f6; padding:20px;">
+<table align="center" style="max-width:600px; background:white; padding:20px; border-radius:8px;">
+    <tr>
+        <td>
+            <h2 style="color:#111827;">Login Alert 🔐</h2>
+            <p style="color:#374151;">
+                Your account was successfully logged in on <strong>{{timestamp}}</strong>.
+                Please Verify your login details below code:
+            </p
+            <h3>{{otp}}</h3>
+            <p style="color:#374151;">
+                <strong>IP:</strong> {{ip}} <br/>
+                <strong>Device:</strong> {{device}} <br/>
+            </p>
+
+            <p style="margin-top:24px; color:#ef4444;">
+                If this wasn't you, please reset your password immediately.
+            </p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
